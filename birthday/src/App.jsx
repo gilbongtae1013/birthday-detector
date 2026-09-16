@@ -12,7 +12,7 @@ function App() {
   // 대사 리스트 (마지막 대사에 입력받은 birthday 값을 조합)
   const lines = [
     { text: "당신의 생일을 맞춰보겠습니다.", needInput: false },
-    { text: "시작하기 전 이용약관에 동의하고 개인정보를 작성해주세요", needInput: true },
+    { text: "시작하기 전 이용약관에 동의하고 본인인증을 해주세요", needInput: true },
     { text: "좋습니다.", needInput: false },
     { text: "당신의 생일을 추적하는 중...", needInput: false, isTimer: true },
     { text: `당신의 생일은 ${birthday}일 입니다.`, needInput: false },
